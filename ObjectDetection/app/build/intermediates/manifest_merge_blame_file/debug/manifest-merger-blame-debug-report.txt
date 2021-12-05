@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.pytorch.demo.objectdetection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:5:5-80
+11-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:6:5-65
+12-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <application
+14-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:8:5-31:19
+15        android:allowBackup="true"
+15-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="Object Detection"
+20-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:11:9-41
+21        android:largeHeap="true"
+21-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:14:9-33
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:12:9-54
+23        android:supportsRtl="true"
+23-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:13:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:15:9-40
+26        <activity
+26-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:16:9-24:20
+27            android:name="org.pytorch.demo.objectdetection.MainActivity"
+27-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:16:19-47
+28            android:configChanges="orientation"
+28-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:17:13-48
+29            android:hardwareAccelerated="false"
+29-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:19:13-48
+30            android:screenOrientation="portrait" >
+30-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:18:13-49
+31            <intent-filter>
+31-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:20:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:21:17-69
+32-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:22:17-77
+34-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:25:9-30:20
+38            android:name="org.pytorch.demo.objectdetection.ObjectDetectionActivity"
+38-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:26:13-52
+39            android:configChanges="orientation"
+39-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:27:13-48
+40            android:hardwareAccelerated="true"
+40-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:29:13-47
+41            android:screenOrientation="portrait" >
+41-->D:\android-demo-app-master\android-demo-app-master\ObjectDetection\app\src\main\AndroidManifest.xml:28:13-49
+42        </activity>
+43
+44        <provider
+44-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:25:9-30:43
+45            android:name="androidx.camera.camera2.impl.Camera2Initializer"
+45-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:26:13-75
+46            android:authorities="org.pytorch.demo.objectdetection.camerax-init"
+46-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:27:13-64
+47            android:exported="false"
+47-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:28:13-37
+48            android:initOrder="100"
+48-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:29:13-36
+49            android:multiprocess="true" />
+49-->[androidx.camera:camera-camera2:1.0.0-alpha05] C:\Users\maity\.gradle\caches\transforms-2\files-2.1\03e258dd1a54bb78b5d34876ddcad997\jetified-camera-camera2-1.0.0-alpha05\AndroidManifest.xml:30:13-40
+50    </application>
+51
+52</manifest>

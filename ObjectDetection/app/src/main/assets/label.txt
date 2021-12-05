@@ -1,0 +1,4 @@
+onion
+tomato
+potato
+garlic

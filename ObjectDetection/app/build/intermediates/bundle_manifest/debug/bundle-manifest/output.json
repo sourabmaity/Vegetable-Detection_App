@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "org.pytorch.demo.objectdetection",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE_MANIFEST"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "org.pytorch.demo.objectdetection",
+        "split": "",
+        "minSdkVersion": "28"
+      }
+    }
+  ]
+}
