@@ -1,4 +1,4 @@
-# Vegetable-Detection_App
+<h1 style="font-size:10vw"> Vegetable-Detection_App-<img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/vegetable.gif" width=70 height=70 />  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></h1>
 
 ## Overview
 
@@ -19,7 +19,11 @@ This is an example application for [PyTorch](https://pytorch.org/mobile/android/
 *   Android device in [developer mode](https://developer.android.com/studio/debug/dev-options) with USB debugging enabled
 *   USB cable (to connect Android device to your computer)
 
-<img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/front_page.jpg" alt="App Example Page" width="300" height="520"/>
+<b>Icon-</b><img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/icon4.png" width=70 height=70 />
+
+<img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/front_page.jpg" alt="App Example Page" width="300" height="520"/><img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/2.jpg" alt="App Example Page" width="300" height="520"/>
+
+<img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/4.jpg" alt="App Example Page" width="300" height="520"/><img src="https://github.com/SOURAB-BAPPA/Vegetable-Detection_App/blob/main/images/3.jpg" alt="App Example Page" width="300" height="520"/>
 
 
 ## Create and train model
