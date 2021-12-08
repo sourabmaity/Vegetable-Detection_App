@@ -104,7 +104,8 @@ _Do not delete the assets folder content_. If you explicitly deleted the files, 
 ## Sources
 
 [PyTorch](https://pytorch.org/mobile/android/)
-[The model version must be between 3 and 5But the model version is 7](https://github.com/pytorch/android-demo-app/issues/202)
+
+[The model version must be between 3 and 5 But the model version is 7](https://github.com/pytorch/android-demo-app/issues/202)
 
 ## Contact
 
